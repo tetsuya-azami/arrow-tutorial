@@ -10,7 +10,8 @@ repositories {
 }
 
 dependencies {
-    testImplementation("org.jetbrains.kotlin:kotlin-test")
+    testImplementation(kotlin("test"))
+    implementation("io.arrow-kt:arrow-core:1.1.5")
 }
 
 tasks.test {
